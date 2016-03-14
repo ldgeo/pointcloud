@@ -19,6 +19,7 @@ extern CU_SuiteInfo point_suite;
 extern CU_SuiteInfo ght_suite;
 extern CU_SuiteInfo bytes_suite;
 extern CU_SuiteInfo lazperf_suite;
+extern CU_SuiteInfo interp_suite;
 
 /**
  * CUnit error handler
@@ -52,8 +53,9 @@ int main(int argc, char *argv[])
 		patch_suite,
 		point_suite,
 		ght_suite, 
-		bytes_suite, 
-                lazperf_suite,
+		bytes_suite,
+    lazperf_suite,
+    interp_suite,
 		CU_SUITE_INFO_NULL
 	};
 
